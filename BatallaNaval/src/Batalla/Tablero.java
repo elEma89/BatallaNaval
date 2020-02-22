@@ -14,7 +14,7 @@ String [][] tab ;
 		
 				
 	}
-	//imprime el tablero en pantalla, se puede agregar que tablero mostrar
+	//imprime el tablero en pantalla, se puede agregar que tablero mostrar entre los parentesis
 	public  void muestra_tabla() {
 		
 		for (int i=0;i<tab.length;i++) {
@@ -27,7 +27,7 @@ String [][] tab ;
 		
 	}
 	
-	//modifica la cordenada ingresada por el usuario
+	//modifica la cordenada ingresada por el usuario siempre que la ubicaicon contenga "~"
 	public void modifica_tabla(int a, int b) {
 		
 		if (this.tab[a][b].equals("~")) {
